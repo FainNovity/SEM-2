@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page title</title>
+    <style>
+        .grad {
+            height: 100px; 
+            width: 100px;  
+            margin: 1vh;                  
+        }
+        .one {
+       background: linear-gradient(red,blue);
+       }
+        .two {
+         background: linear-gradient(45deg,red,blue);
+       }
+      .four {
+            background: radial-gradient(circle at 50% 50%,red,blue);
+        }
+        .three {
+            background: conic-gradient(red,blue);
+        }
+    </style>
+</head>
+<body>
+    <div class="grad one">without deg</div>
+    <div class="grad two">with deg 45</div>
+    <div class="grad three"></div>
+    <div class="grad four"></div>
+</body>
+</html>
